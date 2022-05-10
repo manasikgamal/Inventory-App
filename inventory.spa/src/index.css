@@ -1,0 +1,257 @@
+
+.hcontainer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 80px;
+margin-right: 20%;
+}
+.hiconname{
+display: flex;
+align-items: center;
+}
+.hicon img{
+  width: 50px;
+  height: 50px;
+}
+.hname p{
+  font-size: 25px;
+}
+.hlist ul{
+  list-style: none;
+  display: flex;
+}
+.hlist li{
+margin-left: 20px;
+font-size: 20px;
+}
+.hlist li:hover{
+  cursor: pointer;
+  color: blue;
+}
+.bodycontainer{
+  display: grid;
+  grid-template-columns: 1fr;
+  height:600px;
+  max-width: 100%; 
+  margin: 0 auto;
+}
+.bodyimg img{
+  width: 100%;
+  height: 100%;
+}
+.bodyimg{
+ grid-row-start: 1;
+ grid-column-start: 1;
+ width: 100%;
+ height: 100%;
+}
+.bodycolor{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.65);
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+.bodytextbtn{
+  position: relative;
+  top: 40%;
+  margin-left: 200px;
+}
+.bodytext h1{
+  color: white;
+  font-size: 40px;
+}
+.bodytext p{
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.bodybtn button{
+  background-color: rgb(255, 238, 0);
+  border-color:rgb(255, 238, 0);
+  padding: 10px;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.bodybtn button:hover{
+  cursor: pointer;
+}
+.logcontainer{
+  width: 400px;
+  height: 320px;
+}
+.logcontainer h3{
+  margin-left: 150px;
+}
+.input-container input{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.button-container button{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.vform{
+  color: red;
+}
+.rgistersucc h3{
+ color: green;
+ font-size: 30px;
+ padding-top: 100px;
+ margin-left: 70px;
+}
+.rgistersucc button{
+  margin-left: 180px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.rgistersucc{
+  height: 80%;
+  background-color:#f2f2f2 ;
+}
+.userposts{
+  display: flex;
+  border: solid gray;
+  border-radius: 10px;
+  margin: 20px;
+}
+.user{
+  border: solid gray;
+  margin: 2px;
+  border-radius: 5px;
+}
+.userimg img{
+  border-radius: 50%;
+}
+.userimg{
+  margin: 10px;
+  text-align: center;
+}
+.posts{
+  margin: 2px;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.list{
+  list-style-type: none;
+  border:1px solid black;
+  margin: 15px;  
+  text-align: center;
+  position: relative;
+  z-index:1;
+}
+.item img{
+  width: 100px;
+  height: 100px; 
+}
+.deletediv button{
+  padding: 10px 15px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: red;
+  border-radius: 5px;
+  position: absolute;
+  top: 60px;
+  left: 10%;
+}
+.deletediv button:hover{
+  cursor: pointer;
+}
+.deletediv{
+  position: absolute;
+  background-color: rgba(0,0,0,0.65);
+  width: 100%;
+  height: 100%;
+  top:0px;
+  left: 0px;
+}
+.search{
+  margin: 10px;
+}
+.search label{
+  margin-right: 5px;
+}
+.search input,select{
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  margin: 3px;
+}
+.search button{
+  padding: 5px;
+}
+.search [type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+.search [type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+.search [type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.formitem input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#size{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.formitem{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.newsubmit{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.upload__image-wrapper button{
+  padding: 10px 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.upload__image-wrapper img{
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+}

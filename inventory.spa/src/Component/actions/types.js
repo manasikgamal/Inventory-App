@@ -1,0 +1,20 @@
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const LOGOUT = "LOGOUT";
+export const SET_MESSAGE = "SET_MESSAGE";
+export const CLEAR_MESSAGE = "CLEAR_MESSAGE";
+export const GET_POSTS = "GET_POSTS";
+export const GET_POSTS_FAIL = "GET_POSTS_FAIL";
+export const GET_USER_POSTS = "GET_USER_POSTS";
+export const GET_USER_POSTS_FAIL = "GET_USER_POSTS_FAIL";
+export const FILTER_ITEMS = "FILTER_ITEMS";
+export const ADD_NEW_ITEM = "ADD_NEW_ITEM";
+export const DELETE_ITEM = "DELETE_ITEM";
+export const VERIFY_STORAGE = "VERIFY_STORAGE";
+export const ITEMS_STATISTICS = "ITEMS_STATISTICS";
+export const NUMBER_USER = "NUMBER_USER";
+
+
+
